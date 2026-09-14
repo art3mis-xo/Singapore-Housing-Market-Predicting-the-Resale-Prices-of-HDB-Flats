@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+geopandas
+tabulate
+shapely
+scikit-learn
+keras
+joblib
+protobuf
+scipy
+requests
