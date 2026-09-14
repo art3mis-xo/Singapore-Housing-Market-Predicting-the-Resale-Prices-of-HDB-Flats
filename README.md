@@ -1,8 +1,19 @@
-Link to Google shared drive: https://drive.google.com/drive/folders/1x-HOzK80HzgznGlfGTi5bJY9BBTJR23U?usp=drive_link 
-Predicting Resale Prices of HDB flats in Singapore (CS5228, 7 November 2025)
-Done by: Group 14 ANCHovYs (Charissa, Nicholas, Yiwei, Akshaya, Haiwei)
+# HDB Resale Price Prediction
 
-This document records how to produce the data in our report.
+## Overview
+
+This project explores the factors that influence the resale prices of HDB flats in Singapore and develops machine learning models to predict resale prices based on property characteristics and location-related attributes.
+
+The project is formulated as a **regression problem**, with **Root Mean Squared Error (RMSE)** used as the primary evaluation metric.
+
+### Objectives
+
+* Predict the resale price of an HDB flat.
+* Identify the attributes that have the greatest influence on resale prices.
+* Compare different regression techniques and their performance.
+* Analyse model errors and limitations.
+* Explore potential improvements and extensions to the prediction approach.
+
 1. Create Python environment.
 ```
 conda create -n KDDM14 python=3.13 -y
@@ -50,7 +61,6 @@ Subfolders:
 2. walking_dist/: walking distance matrix generation
 3. intermediate_csvs/: intermediate data processed csv files
 4. src/: all source codes
-5. models/: our best models (best hyperparameter): 
+5. models/: the best models (best hyperparameter): 
     - "model3_HistGB_model.pkl": partitioned train set, no cross-validation, for experimentation
     - "model3_HistGradientBoostingRegressor_model.pkl": full train set (without train-validation partition), cross-validation, for testing
-6. pred.csv: our final Kaggle submission
