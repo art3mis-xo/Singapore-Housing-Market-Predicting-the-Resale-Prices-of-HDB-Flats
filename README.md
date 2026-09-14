@@ -59,8 +59,7 @@ cd ..
 Subfolders:
 1. data/: original data provided
 2. walking_dist/: walking distance matrix generation
-3. intermediate_csvs/: intermediate data processed csv files
-4. src/: all source codes
-5. models/: the best models (best hyperparameter): 
+3. src/: all source codes
+4. models/: the best models (best hyperparameter): 
     - "model3_HistGB_model.pkl": partitioned train set, no cross-validation, for experimentation
     - "model3_HistGradientBoostingRegressor_model.pkl": full train set (without train-validation partition), cross-validation, for testing
